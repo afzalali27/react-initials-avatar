@@ -16,19 +16,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/afzalali27/react-initials-avatar.git"
+    "url": "git+https://github.com/afzalali27/react-initial-avatar.git"
   },
   "keywords": [
     "avatar",
     "react-initials-avatar",
+    "react-initial-avatar",
     "initials-avatar"
   ],
   "author": "Afzal Ali",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/afzalali27/react-initials-avatar/issues"
+    "url": "https://github.com/afzalali27/react-initial-avatar/issues"
   },
-  "homepage": "https://github.com/afzalali27/react-initials-avatar#readme",
+  "homepage": "https://github.com/afzalali27/react-initial-avatar#readme",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.4",
     "@rollup/plugin-node-resolve": "^15.2.1",

@@ -26,9 +26,16 @@ export default App;
 
 ## Props
 
-| Prop  | Type   | Description         |
-|-------|--------|---------------------|
-| name  | string | The name to extract initials from. |
+| Prop             | Type   | Default    | Description                                            |
+|------------------|--------|------------|--------------------------------------------------------|
+| name             | string |            | The name to extract initials from.                     |
+| height           | number | `30px`     | The height of the initials container.                  |
+| width            | number | `30px`     | The width of the initials container.                   |
+| backgroundColor  | string | `#f0f8ff`  | The background color of the initials container.        |
+| color            | string | `#6495ed`  | The text color (initials color) inside the container.  |
+| borderRadius     | number | `none`     | The border radius of the initials container.           |
+| borderWidth      | number | `none`     | The border width of the initials container.            |
+| borderColor      | string | `none`     | The border color of the initials container.            |
 
 ## Examples
 ```jsx
@@ -38,8 +45,9 @@ import Avatar from "react-initial-avatar";
 const Example = () => {
   return (
     <div>
-      <Avatar name="John Doe" />
-      <Avatar name="Jane Smith" />
+      <Avatar name="Afzal Ali" />
+      <Avatar color="red" backgroundColor="#FFF" name="Elizabeth Smith Brown" />
+      <Avatar borderRadius={50} borderWidth={1} borderColor="black" name="Jane Smith" />
     </div>
   );
 };
