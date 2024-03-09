@@ -9,7 +9,11 @@ interface AvatarProps {
     borderRadius: number;
     borderWidth: number;
     borderColor: string;
+    style?: {
+        [key: string]: string | number;
+    };
+    splitWith?: string;
 }
-declare const Avatar: ({ name, height, width, backgroundColor, color, borderRadius, borderWidth, borderColor }: AvatarProps) => React.JSX.Element;
+declare const Avatar: ({ name, height, width, backgroundColor, color, borderRadius, borderWidth, borderColor, style, splitWith, }: AvatarProps) => React.JSX.Element;
 
 export { Avatar };
