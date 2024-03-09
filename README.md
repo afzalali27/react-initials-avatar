@@ -36,6 +36,8 @@ export default App;
 | borderRadius     | number | `none`     | The border radius of the initials container.           |
 | borderWidth      | number | `none`     | The border width of the initials container.            |
 | borderColor      | string | `none`     | The border color of the initials container.            |
+| style            | object | `{}`       | (optional) custom style object.                        |
+| splitWith        | string | `" "`      | delimeter to split name with                           |
 
 ## Examples
 ```jsx
